@@ -31,7 +31,6 @@ var randomWizardFeature = function () {
 
 for (var j = 0; wizards.length < 4; j++) {
   wizards[j] = randomWizardFeature();
-  wizards.push(wizards[j]);
 }
 
 var renderWizard = function (wizard) {
